@@ -147,5 +147,5 @@ def load_config(path, profile=None):
 
 def require_file(path, name):
     if not path or not Path(path).is_file():
-        raise FileNotFoundError(f"Missing {name}: {path}. See README.md or run the setup command.")
+        raise FileNotFoundError(f"Missing {name}: {path}. See PIPELINE.md or run the setup command.")
     return Path(path).resolve()
