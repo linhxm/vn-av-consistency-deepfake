@@ -1,3 +1,13 @@
+# VN-AV-DF Forensics — v001 snapshot (archived)
+
+**This branch freezes v001 of the study** (6 October 2026): Vietnamese lip-sync deepfake detection with temporal audio–mouth consistency (P2 SyncArtifact vs the B-FATE and B-AVH baselines, 24 detectors on part1).
+
+- Full report (English): [docs/v001_report.md](docs/v001_report.md)
+- The study continued and closed with v002 on `main` (MechFake + TriCue, `docs/v002_report.md`).
+- The code here is the v001 code; the usage guide below is the original (Vietnamese) one from that time.
+
+---
+
 # VN-AV-DF Forensics
 
 Phát hiện và định vị lip-sync deepfake trong video tiếng Việt: **video YouTube → cắt/duyệt → sinh fake → train → so sánh → demo**.
